@@ -1,0 +1,10 @@
+* Informação sobre a disponibilidade da requisição seja ela qual for
+    curl -X OPTIONS http://localhost:3000/posts -i (precisa o servidor está rodando, pode ser o servidor db.json)
+
+
+CARACTERÍSTICAS:
+    - Seguro (não faz alteração no servidor)
+    - Idempotente (sempre responde a mesma coisa)
+    - Body (não envia nem recebe [request, response])
+    - Não usa em formulário HTML
+    - Não é Cacheable (não guarda respostas predefinida)
