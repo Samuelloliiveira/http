@@ -1,0 +1,12 @@
+* Remover um recurso
+* status code:
+    202 Accepted (não foi processado, mas foi aceito)
+    204 No content (não tem conteúdo de resposta e de corpo)
+    200 ok (foi deletado e tem corpo de resposta)
+
+CARACTERÍSTICAS:
+    Não é seguro pois faz auteração no servidor
+    Idempotente pois as respostas seram sempre as mesmas
+    Body - Request: Possibilidade, Response: Possibilidade
+    Não é usado em formulário HTML
+    Não é cacheable pois não guarda informações

@@ -1,0 +1,18 @@
+* Serve para criar um novo ou atualizar um recurso (mais usado para atualizar)
+* A diferença do POST é que PUT é idempotente (sempre tem a mesma resposta)
+
+    Criação - status code 201
+    Atualização - status code 204 ou 200
+
+CARACTERÍSTICAS: 
+    Não é seguro pois autera algo no servidor
+    Body - Request: sim, Response: Não
+    Não é usado em formulários HTML
+    Não é cacheable pois não guarda informações em cache/memória
+
+
+- POST server somente para criar
+
+
+status code 204 - atualizado sem resposta
+status code 200 - atualizado com resposta
